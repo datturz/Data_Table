@@ -1,0 +1,61 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.div {    
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.div1 {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 60%;
+    background-color: darkturquoise;
+}
+.div2 {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    max-width: 65%;
+    background-color: darkturquoise;
+}
+table {
+    width: 60%; border: 1px double blue;
+    border-collapse: collapse
+}
+td {
+    height: 30px; border: 1px double blue;
+    border-collapse: collapse;
+    text-align: center ; 
+    background-color: whitesmoke 
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+th {
+    height: 30px; border: 1px double blue;
+    border-collapse: collapse;
+    text-align: center ;   
+    /* background-color: rgb(21, 243, 28); */
+    color:black;
+        }
+.button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    border-radius: 8px
+}
+.button2:nth-child(even){
+    border-radius:  8px;
+    background-color: rgb(201, 157, 229);
+}
+  
